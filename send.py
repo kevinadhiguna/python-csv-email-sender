@@ -33,3 +33,15 @@ with open('email.csv', 'r') as csvfile:
     msg['Subject'] = emailSubject
     msg.attach(MIMEText(message, "plain"))
     text = msg.as_string()
+
+    # Establish the server (using Gmail)
+    server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
+    
+    # Authentication process
+    server.login(emailSender, emailPassword)
+    
+    # Send Email
+    server.sendmail(emailSender, emailReceiver, text)
+
+    # Exit the server    
+    server.quit()
