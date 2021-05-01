@@ -22,3 +22,14 @@ with open('email.csv', 'r') as csvfile:
     message = "Hello " + line[1] + ". Your " + line[2] + " plan has been activated."
     
     # print(message) # <- Just for debugging
+
+    # Determine receiver of the email from a CSV file which is the first column (index starts from 0).
+    emailReceiver = line[0]
+    
+    # Core code to send email
+    msg = MIMEMultipart() # <- Create a class instance of Multipurpose Internet Mail Extensions (MIME) which is an Internet standard that is used to support the transfer of single or multiple text and non-text attachments
+    msg['From'] = emailSender
+    msg['To'] = emailReceiver
+    msg['Subject'] = emailSubject
+    msg.attach(MIMEText(message, "plain"))
+    text = msg.as_string()
