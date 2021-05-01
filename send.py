@@ -6,20 +6,23 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
-# Import python-dotenv to read environment variables
+# Read environment variables
+import os
+from os.path import join, dirname
 from dotenv import load_dotenv
 
 # Take environment variables from .env
-load_dotenv()
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
 
 # Email address of sender
-emailSender = ""
+emailSender = os.environ.get("EMAIL_SENDER")
 
 # Password of sender's email address
-emailPassword = ""
+emailPassword = os.environ.get("EMAIL_PASSWORD")
 
 # Subject of the email that will be sent
-emailSubject = ""
+emailSubject = os.environ.get("EMAIL_SUBJECT")
 
 # Open and read a CSV file
 with open('email.csv', 'r') as csvfile:
