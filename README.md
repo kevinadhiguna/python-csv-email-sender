@@ -27,3 +27,18 @@ In the example above :
 - `kaidoe@gmail.com` is the sender email address
 - `kaidoe123` is the password of the sender email address which is `kaidoe@gmail.com`
 - `Subscription Plan` is the subject of the email
+
+## How to Run :
+These steps below assume you have completed [prerequisites](#prerequisite-) steps above, thank you.
+
+1) Open your terminal or command prompt(CMD) then clone this repository :<br/>
+`git clone https://github.com/kevinadhiguna/python-csv-email-sender`
+
+2) Change directory to this application :<br/>
+`cd python-csv-email-sender`
+
+3) Install dependency :<br/>
+`pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+
+4) Run the application :<br/>
+`python send.py` or `python3 send.py`
