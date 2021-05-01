@@ -6,6 +6,12 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
+# Import python-dotenv to read environment variables
+from dotenv import load_dotenv
+
+# Take environment variables from .env
+load_dotenv()
+
 # Email address of sender
 emailSender = ""
 
