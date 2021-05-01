@@ -43,4 +43,8 @@ These steps below assume you have completed [prerequisites](#prerequisite-) step
 4) Run the application :<br/>
 `python send.py` or `python3 send.py`
 
+## Demo
+
+<img src="https://s3.gifyu.com/images/send-mail_iphone12black_portrait.png" alt="sendmail.py - result" border="0" height="550px" />
+
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/antdpro-strapi-auth)](https://github.com/kevinadhiguna)
