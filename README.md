@@ -1,6 +1,6 @@
 # Python CSV Email Sender
 
-Send multiple emails from a CSV file with a python script ✉️
+Send multiple emails from a CSV file with a python script 📨
 
 ## Prerequisite :
 1) Turn on [Less Secure App access](https://myaccount.google.com/lesssecureapps) of your Google Account :
@@ -42,3 +42,5 @@ These steps below assume you have completed [prerequisites](#prerequisite-) step
 
 4) Run the application :<br/>
 `python send.py` or `python3 send.py`
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/antdpro-strapi-auth)](https://github.com/kevinadhiguna)
