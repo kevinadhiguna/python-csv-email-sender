@@ -2,7 +2,10 @@
 
 Send multiple emails from a CSV file with a python script 📨
 
+<br />
+
 ## Prerequisite :
+
 1) Turn on [Less Secure App access](https://myaccount.google.com/lesssecureapps) of your Google Account :
 
 ![image](https://user-images.githubusercontent.com/43397636/116787412-0e031500-aace-11eb-8770-76e0f3bc970c.png)
@@ -28,7 +31,10 @@ In the example above :
 - `kaidoe123` is the password of the sender email address which is `kaidoe@gmail.com`
 - `Subscription Plan` is the subject of the email
 
+<br />
+
 ## How to Run :
+
 These steps below assume you have completed [prerequisites](#prerequisite-) steps above, thank you.
 
 1) Open your terminal or command prompt(CMD) then clone this repository :<br/>
@@ -43,12 +49,18 @@ These steps below assume you have completed [prerequisites](#prerequisite-) step
 4) Run the application :<br/>
 `python send.py` or `python3 send.py`
 
+<br />
+
 ## Demo
 
 <img src="https://s3.gifyu.com/images/send-mail_iphone12black_portrait.png" alt="sendmail.py - result" border="0" height="550px" />
 
+<br />
+
 ## Reference
 
 - [How To Send Multiple Emails from CSV Using Python by I know python](https://youtu.be/J027R2cgXhc)
+
+<br />
 
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/antdpro-strapi-auth)](https://github.com/kevinadhiguna)
