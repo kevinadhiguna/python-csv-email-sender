@@ -47,4 +47,8 @@ These steps below assume you have completed [prerequisites](#prerequisite-) step
 
 <img src="https://s3.gifyu.com/images/send-mail_iphone12black_portrait.png" alt="sendmail.py - result" border="0" height="550px" />
 
+## Reference
+
+- [How To Send Multiple Emails from CSV Using Python by I know python](https://youtu.be/J027R2cgXhc)
+
 [![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/antdpro-strapi-auth)](https://github.com/kevinadhiguna)
